@@ -1,43 +1,54 @@
 <template>
   <div class="home">
-        <HelloWorld/>
-        <scrollDown/>
-        <div class="content">
+    <HelloWorld />
+    <scrollDown />
+    <b-container
+      ><div class="content">
         <h4>Welcome to Sam-kay Photography website!</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quo voluptas, molestiae officia laboriosam obcaecati rem modi at provident, dignissimos pariatur maiores officiis temporibus possimus, explicabo atque perferendis neque fugiat?</p>
-        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quo
+          voluptas, molestiae officia laboriosam obcaecati rem modi at
+          provident, dignissimos pariatur maiores officiis temporibus possimus,
+          explicabo atque perferendis neque fugiat?
+        </p>
+      </div></b-container
+    >
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue"
-import scrollDown from "@/components/scrolldown.vue"
+import HelloWorld from "@/components/HelloWorld.vue";
+import scrollDown from "@/components/scrolldown.vue";
 export default {
-   name: "Home",
+  name: "Home",
   components: {
-    HelloWorld,scrollDown
+    HelloWorld,
+    scrollDown,
   },
-  data(){
-    return{
-     parm: false, 
-    }
+  data() {
+    return {
+      parm: false,
+    };
   },
-  methods: {
-  
-  },
+  methods: {},
 };
 </script>
 
 <style>
-.home{
-  width:100vw ;
-overflow-x: hidden;
+.home {
+  width: 100vw;
+  overflow-x: hidden;
 }
 
-.content{
-  text-align:center;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.content {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: lighter;
+}
+
+.content p{
+    text-align:justify;
+
 }
 </style>
