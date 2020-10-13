@@ -1,7 +1,6 @@
 <template>
-  <transition name="fade">
-
-  <div class="screenSplash" v-if="parm"> 
+ 
+  <div  :class="{screenSplash:true,fadeout: !isLoading }"> 
 
   <svg id="camera" viewBox="0 0 328 256" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M164.175 83.2554C139.072 83.2554 118.08 100.919 118.08 123.444C118.08 145.97 139.072 163.633 164.175 163.633C189.279 163.633 210.269 145.97 210.269 123.444C210.269 100.919 189.279 83.2554 164.175 83.2554ZM101.283 123.444C101.283 93.9318 129.087 69.4109 164.175 69.4109C199.264 69.4109 227.067 93.9318 227.067 123.444C227.067 152.958 199.264 177.478 164.175 177.478C129.087 177.478 101.283 152.958 101.283 123.444Z" fill="#FFE500" stroke="black" stroke-width="10"/>
@@ -42,15 +41,13 @@
 
 
   </div>  
-  </transition>
+  
 
 </template>
 
 <script>
   export default {
-     beforeCreate() {
-    setTimeout(()=>{this.parm=!this.parm},5000);
-  },
+   props: ["isLoading"],
     name:"screenSplash",
      data() {
     return {parm: true };
@@ -74,16 +71,12 @@ body{
 
 
 .screenSplash{
-position: static;
 width:100vw;
 height:100vh;
-z-index:100000000;
-}
-
-.screenSplash svg{
-  transition:0.5s ease-out;
+  position: fixed;
 
 }
+
 #camera{
   position:absolute;
   top:37%;
@@ -257,6 +250,17 @@ max-width:210px;
 }
 .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+.fadeout {
+  animation: fadeout 2s forwards;
+}
+
+@keyframes fadeout {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
 }
 
 </style>

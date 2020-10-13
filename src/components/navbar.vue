@@ -1,5 +1,5 @@
 <template>
-  <div :class="[{ display: !parm }]">
+  <div>
     <!-- harmburger -->
     <div id="nav-bar">
       <button
@@ -20,8 +20,10 @@
           />
         </svg>
       </button>
-
-      <img class="logo" src="../assets/samkay.png" alt="" />
+     <transition name="fade"> 
+       <img class="logo" src="../assets/samkay.png" alt="" v-if="!isSwipe"/>
+     </transition>
+     
     </div>
 
     <!-- logo -->
@@ -59,7 +61,7 @@
 
         <ul>
           <li class="side-link" @click="toggle">
-            <router-link to="/home">Home</router-link>
+            <router-link to="/">Home</router-link>
           </li>
           <li class="side-link" @click="toggle">
             <router-link to="/about">About</router-link>
@@ -75,22 +77,20 @@
           </li>
         </ul>
       </div>
-    </transition>
-    <img class="logo1" src="../assets/samkay.png" alt="" />
-    
+    </transition >
+    <transition name="fade">
+      <div class="logo1" v-if="isSwipe">
+        <img src="../assets/samkay.png" alt="" /></div
+    ></transition>
   </div>
 </template>
 
 <script>
 export default {
-  beforeCreate() {
-    setTimeout(() => {
-      this.parm = !this.parm;
-    }, 5220);
-  },
   name: "navbar",
+  props: ["isSwipe"],
   data() {
-    return { toggled: false, parm: false };
+    return { toggled: false };
   },
   methods: {
     toggle() {
@@ -118,7 +118,7 @@ html {
   cursor: pointer;
   padding: 0;
   position: fixed;
-  top: 0;
+  margin-top: 2.5px;
   left: 0;
   z-index: 40000;
 }
@@ -131,30 +131,30 @@ html {
 }
 .line1 {
   stroke-dasharray: 60 207;
-  stroke-width: 6;
+  stroke-width: 8;
 }
 .line2 {
   stroke-dasharray: 60 60;
-  stroke-width: 6;
+  stroke-width: 8;
 }
 .line3 {
   stroke-dasharray: 60 207;
-  stroke-width: 6;
+  stroke-width: 8;
 }
 .opened .line1 {
   stroke-dasharray: 90 207;
   stroke-dashoffset: -134;
-  stroke-width: 6;
+  stroke-width: 8;
 }
 .opened .line2 {
   stroke-dasharray: 1 90;
   stroke-dashoffset: -90;
-  stroke-width: 6;
+  stroke-width: 8;
 }
 .opened .line3 {
   stroke-dasharray: 90 207;
   stroke-dashoffset: -134;
-  stroke-width: 6;
+  stroke-width: 8;
 }
 button {
   outline: none !important;
@@ -174,14 +174,19 @@ svg {
   z-index: 300;
 }
 
-.logo1{
-top:50px;
-width:100px;
-margin-top:60px;
-padding:0px;
-text-align: center;
+.logo1 {
+  position: fixed;
+  z-index: 2000;
+  top: 50px;
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  width: 100vw;
 }
 
+.logo1 img {
+  width: 100px;
+}
 /* topnav */
 .display {
   display: none;
@@ -190,11 +195,13 @@ text-align: center;
   position: fixed;
   display: flex;
   padding: 0px;
-  height: 49px;
+  margin-top: 2px;
+  height: 50px;
   z-index: 20000000;
   justify-content: center;
+  align-items: center;
   width: 100vw;
-  color:red;
+  color: red;
 }
 .topnav ul {
   display: flex;
@@ -239,8 +246,8 @@ text-align: center;
 .side-nav {
   width: 100vw;
   top: 30px;
-  height: calc(100vh - 30px);
-  position: absolute;
+  height: calc(100vh - 40px);
+  position: fixed;
   z-index: 4000;
   background-color: #eeede7;
   display: flex;
@@ -272,8 +279,9 @@ text-align: center;
   transition: 0.3s ease-out;
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;

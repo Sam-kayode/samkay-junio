@@ -6,12 +6,65 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+     .screenSplash{
+position: static;
+width:100vw;
+height:100vh;
+z-index:100000000;
+}
+
+#camera{
+  position:absolute;
+  top:37%;
+  left:49%;
+  transform:translate(-50%,-50%);
+  animation:fill 0.5s ease-in forwards 2.9s;  width: 90%;
+  max-width:100px;
+  
+  }
+
+  #logo{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+animation:fill 0.5s ease-in forwards 2.9s;  width: 90%;
+max-width:600px;
+
+}
+
+
+#logod{
+  position:absolute;
+top:60%;
+left:50%;
+transform:translate(-50%,-50%);
+max-width:210px;
+}
+
+
+    </style>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app">
+      <div class="screenSplash"> 
+        <object id="camera" type="image/svg+xml" data="Untitl.svg" class="logo">Gab</object>
+        <object id="logo" type="image/svg+xml" data="Untitl2.svg" class="logo">Gab</object>
+        <object id="logod" ype="image/svg+xml" data="untitl3.svg" class="logo">Gab</object>
+
+      </div>
+  </div>
+   
+   
+    </div>
+    
+    
+
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>
