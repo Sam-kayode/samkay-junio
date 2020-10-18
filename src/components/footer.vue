@@ -56,7 +56,8 @@ export default {
 
 .links p {
   font-size: 25px;
-  font-weight: lighter;
+  font-family: roboto, sans-serif;
+
 }
 ul {
   padding: 0;

@@ -84,7 +84,6 @@ export default {
 
 .content p {
   text-align: justify;
-  font-family: roboto, sans-serif;
 }
 
 .logo1 {
@@ -112,4 +111,6 @@ export default {
   margin:auto;
   
 }
+
+
 </style>
