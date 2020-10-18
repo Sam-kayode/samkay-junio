@@ -79,7 +79,6 @@ export default {
 .content {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: lighter;
 }
 
 .content p {
