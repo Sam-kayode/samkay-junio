@@ -4,6 +4,7 @@
     <div v-if="!isLoading1">
       <navbar class="nav-bar" :isSwipe="isSwipe" />
       <router-view />
+      <Foot />
     </div>
   </div>
 </template>
@@ -14,7 +15,7 @@
 <script>
 import navbar from "@/components/navbar.vue";
 import screenSplash from "@/components/screenSplash.vue";
-
+import Foot from "@/components/footer.vue"
 export default {
   mounted() {
     setTimeout(() => {
@@ -27,7 +28,7 @@ export default {
   },
   components: {
     navbar,
-    screenSplash,
+    screenSplash,Foot
   },
   data() {
     return { isLoading: true, isLoading1: true, isSwipe: true };

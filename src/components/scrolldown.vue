@@ -30,8 +30,8 @@ text-align:center;
  transform: scale(1.5);
 }
 #scrollDown p{
-  margin-top:-15px;
   color:rgb(229, 214, 194);
+  margin-top:-35px;
 }
 #scrollDown a span {
   position: absolute;

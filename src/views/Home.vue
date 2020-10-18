@@ -3,16 +3,50 @@
     <HelloWorld />
     <scrollDown />
     <b-container
-      ><div class="content">
-        <h4>Welcome to Sam-kay Photography website!</h4>
+      ><div class="content px-2">
+        <h3>Welcome to Sam-kay Photography website!</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quo
           voluptas, molestiae officia laboriosam obcaecati rem modi at
           provident, dignissimos pariatur maiores officiis temporibus possimus,
           explicabo atque perferendis neque fugiat?
         </p>
-      </div></b-container
-    >
+      </div>
+    </b-container>
+    <div class="logo1">
+      <img src="../assets/samkay.png" alt="" />
+    </div>
+    <b-container >
+      <b-row class="py-5 text-center">
+        <b-col class="cardi">
+          <div class="icons text-center p-3"><b-icon icon="camera2" font-scale="3" rotate="20"></b-icon></div>
+          <div class="icon-desc ">
+          <h4 class="text-center p-1">
+            CREATIVITY
+          </h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, temporibus illo?</p></div>
+        </b-col>
+        
+        <b-col class="cardi">
+          <div class="icons text-center p-3"><b-icon icon="hourglass-split
+" font-scale="3" rotate="20"></b-icon></div>
+          <div class="icon-desc ">
+          <h4 class="text-center p-1">
+            PRODUCTIVITY
+          </h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, temporibus illo?</p></div>
+        </b-col>
+         <b-col class="cardi">
+          <div class="icons text-center p-3"><b-icon icon="star-fill" font-scale="3" rotate="20"></b-icon></div>
+          <div class="icon-desc ">
+          <h4 class="text-center p-1">
+            QUALITY
+          </h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, temporibus illo?</p></div>
+        </b-col>
+        
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -20,6 +54,7 @@
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 import scrollDown from "@/components/scrolldown.vue";
+
 export default {
   name: "Home",
   components: {
@@ -35,7 +70,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .home {
   width: 100vw;
   overflow-x: hidden;
@@ -47,8 +82,34 @@ export default {
   font-weight: lighter;
 }
 
-.content p{
-    text-align:justify;
+.content p {
+  text-align: justify;
+  font-family: roboto, sans-serif;
+}
 
+.logo1 {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  width: 100vw;
+}
+
+.logo1 img {
+  width: 80px;
+}
+.content h3 {
+  font-size: 35px;
+}
+
+.icon-desc h4{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.cardi{
+  max-width:300px;
+  min-width:280px;
+  margin:auto;
+  
 }
 </style>

@@ -20,10 +20,9 @@
           />
         </svg>
       </button>
-     <transition name="fade"> 
-       <img class="logo" src="../assets/samkay.png" alt="" v-if="!isSwipe"/>
-     </transition>
-     
+      <transition name="fade">
+        <img class="logo" src="../assets/samkay.png" alt="" v-if="!isSwipe" />
+      </transition>
     </div>
 
     <!-- logo -->
@@ -43,7 +42,7 @@
           <router-link to="/about">About</router-link>
         </li>
         <li class="navlink">
-          <router-link to="/sensei">Sensei</router-link>
+          <router-link to="/about">Gallery</router-link>
         </li>
         <li class="navlink">
           <router-link to="/contact">Contact</router-link>
@@ -66,8 +65,8 @@
           <li class="side-link" @click="toggle">
             <router-link to="/about">About</router-link>
           </li>
-          <li class="side-link" @click="[toggle(), noNav()]">
-            <router-link to="/sensei">Sensei</router-link>
+           <li class="side-link" @click="toggle">
+            <router-link to="/Gallery">Gallery</router-link>
           </li>
           <li class="side-link" @click="toggle">
             <router-link to="/contact">Contact</router-link>
@@ -75,9 +74,10 @@
           <li class="side-link" @click="toggle">
             <router-link to="/pricing">Pricing</router-link>
           </li>
+          
         </ul>
       </div>
-    </transition >
+    </transition>
     <transition name="fade">
       <div class="logo1" v-if="isSwipe">
         <img src="../assets/samkay.png" alt="" /></div
@@ -177,7 +177,7 @@ svg {
 .logo1 {
   position: fixed;
   z-index: 2000;
-  top: 50px;
+  top: 45px;
   display: flex;
   padding: 0px;
   justify-content: center;
@@ -185,7 +185,9 @@ svg {
 }
 
 .logo1 img {
-  width: 100px;
+  width: 55px;
+margin-left: 280px;
+margin-top: 50px;
 }
 /* topnav */
 .display {
