@@ -29,7 +29,7 @@
     </b-container>
 
     <div class="text-center copyright bg-light p-2">
-      © 2019 Sam-kay Photography. All rights reserved.
+      © 2020 Sam-kay Photography. All rights reserved.
     </div>
   </div>
 </template>
@@ -57,7 +57,6 @@ export default {
 .links p {
   font-size: 25px;
   font-family: roboto, sans-serif;
-
 }
 ul {
   padding: 0;
@@ -83,7 +82,6 @@ li img:hover {
 }
 
 .links p {
-  font-weight: lighter;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 </style>
