@@ -39,11 +39,12 @@
           <router-link to="/">Home</router-link>
         </li>
         <li class="navlink">
-          <router-link to="/about">About</router-link>
-        </li>
-        <li class="navlink">
           <router-link to="/about">Gallery</router-link>
         </li>
+        <li class="navlink">
+          <router-link to="/about">About</router-link>
+        </li>
+
         <li class="navlink">
           <router-link to="/contact">Contact</router-link>
         </li>
@@ -63,22 +64,21 @@
             <router-link to="/">Home</router-link>
           </li>
           <li class="side-link" @click="toggle">
-            <router-link to="/about">About</router-link>
-          </li>
-           <li class="side-link" @click="toggle">
             <router-link to="/Gallery">Gallery</router-link>
           </li>
+          <li class="side-link" @click="toggle">
+            <router-link to="/about">About</router-link>
+          </li>
+
           <li class="side-link" @click="toggle">
             <router-link to="/contact">Contact</router-link>
           </li>
           <li class="side-link" @click="toggle">
             <router-link to="/pricing">Pricing</router-link>
           </li>
-          
         </ul>
       </div>
     </transition>
-   
   </div>
 </template>
 

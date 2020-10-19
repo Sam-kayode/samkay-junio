@@ -1,14 +1,14 @@
 <template>
-  <div class="home " id="top">
-     <transition name="fade">
+  <div class="home" id="top">
+    <transition name="fade">
       <div class="logo2" v-if="isSwipe">
         <img src="../assets/samkay.png" alt="" /></div
     ></transition>
     <HelloWorld />
     <scrollDown />
-    <b-container
-      id="content"><div class="content px-2 pt-5" >
-        <h3 >Welcome to Sam-kay Photography website!</h3>
+    <b-container id="content"
+      ><div class="content px-2 pt-5">
+        <h3>Welcome to Samkay Photography website!</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quo
           voluptas, molestiae officia laboriosam obcaecati rem modi at
@@ -20,36 +20,55 @@
     <div class="logo1">
       <img src="../assets/samkay.png" alt="" />
     </div>
-    <b-container >
+    <b-container>
       <b-row class="py-5 text-center">
         <b-col class="cardi">
-          <div class="icons text-center p-3"><b-icon icon="camera2" font-scale="3" rotate="20"></b-icon></div>
-          <div class="icon-desc ">
-          <h4 class="text-center p-1">
-            CREATIVITY
-          </h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, temporibus illo?</p></div>
+          <div class="icons text-center p-3">
+            <b-icon icon="camera2" font-scale="3" rotate="20"></b-icon>
+          </div>
+          <div class="icon-desc">
+            <h4 class="text-center p-1">CREATIVITY</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+              temporibus illo?
+            </p>
+          </div>
         </b-col>
-        
+
         <b-col class="cardi">
-          <div class="icons text-center p-3"><b-icon icon="hourglass-split
-" font-scale="3" rotate="20"></b-icon></div>
-          <div class="icon-desc ">
-          <h4 class="text-center p-1">
-            PRODUCTIVITY
-          </h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, temporibus illo?</p></div>
+          <div class="icons text-center p-3">
+            <b-icon
+              icon="hourglass-split
+"
+              font-scale="3"
+              rotate="20"
+            ></b-icon>
+          </div>
+          <div class="icon-desc">
+            <h4 class="text-center p-1">PRODUCTIVITY</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+              temporibus illo?
+            </p>
+          </div>
         </b-col>
-         <b-col class="cardi">
-          <div class="icons text-center p-3"><b-icon icon="star-fill" font-scale="3" rotate="20"></b-icon></div>
-          <div class="icon-desc ">
-          <h4 class="text-center p-1">
-            QUALITY
-          </h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, temporibus illo?</p></div>
+        <b-col class="cardi">
+          <div class="icons text-center p-3">
+            <b-icon icon="star-fill" font-scale="3" rotate="20"></b-icon>
+          </div>
+          <div class="icon-desc">
+            <h4 class="text-center p-1">QUALITY</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+              temporibus illo?
+            </p>
+          </div>
         </b-col>
-        
       </b-row>
+
+    <div class="sub-sec">
+      <h2>In our Blood, <br>There Is the Creativity.</h2>
+    </div>
     </b-container>
   </div>
 </template>
@@ -61,7 +80,7 @@ import scrollDown from "@/components/scrolldown.vue";
 
 export default {
   name: "Home",
-  props:["isSwipe"],
+  props: ["isSwipe"],
   components: {
     HelloWorld,
     scrollDown,
@@ -84,13 +103,13 @@ export default {
 
 .content {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    scroll-behavior: smooth;
-
+  scroll-behavior: smooth;
 }
 
 .content p {
   text-align: justify;
+  font-family: 'Philosopher', sans-serif;
+
 }
 
 .logo1 {
@@ -105,31 +124,37 @@ export default {
 }
 .content h3 {
   font-size: 35px;
+font-family: 'Nunito Sans', sans-serif;
+  font-weight: bolder;
 }
 
-.icon-desc h4{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+.icon-desc h4 {
+font-family: 'Nunito Sans', sans-serif;
+font-weight:bolder;
 }
 
-.cardi{
-  max-width:300px;
-  min-width:280px;
-  margin:auto;
-  
+.cardi {
+  max-width: 300px;
+  min-width: 280px;
+  margin: auto;
 }
 
-.logo2{
-  position:fixed;
-  z-index:10000;
-  top:40px;
-  width:100%;
-display:flex;
-justify-content: center;
+.logo2 {
+  position: fixed;
+  z-index: 1000;
+  top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.logo2 img{
-    width:100px;
-     
+.logo2 img {
+  width: 100px;
+}
+
+.sub-sec h2{
+  font-weight:bolder;
+font-family: 'nunito sans', sans-serif;
+
 }
 </style>
