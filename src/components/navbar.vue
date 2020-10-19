@@ -78,10 +78,7 @@
         </ul>
       </div>
     </transition>
-    <transition name="fade">
-      <div class="logo1" v-if="isSwipe">
-        <img src="../assets/samkay.png" alt="" /></div
-    ></transition>
+   
   </div>
 </template>
 
@@ -111,6 +108,7 @@ html {
   width: 100vw !important;
   height: 45px;
   background-color: white;
+  border-bottom: 1px solid #b9b6b6;
 }
 .harmburger {
   background-color: #ffffff;
@@ -174,7 +172,7 @@ svg {
   z-index: 300;
 }
 
-.logo1 {
+/* .logo1 {
   position: fixed;
   z-index: 2000;
   top: 45px;
@@ -188,7 +186,7 @@ svg {
   width: 55px;
 margin-left: 280px;
 margin-top: 50px;
-}
+} */
 /* topnav */
 .display {
   display: none;

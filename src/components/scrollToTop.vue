@@ -1,5 +1,5 @@
 <template>
-<a v-scroll-to="{ element: '#top', duration: 1000 }" v-if="scrollToTop"> <div class="scrollToTop h2 mb-0">
+<a v-scroll-to="{ element: '#top', duration: 900 }" v-if="scrollToTop"> <div class="scrollToTop h2 mb-0">
       <b-icon icon="file-arrow-up-fill
 " style="color: #c99d63;" font-scale="1.3"></b-icon>
     </div></a>

@@ -1,5 +1,9 @@
 <template>
   <div class="home " id="top">
+     <transition name="fade">
+      <div class="logo2" v-if="isSwipe">
+        <img src="../assets/samkay.png" alt="" /></div
+    ></transition>
     <HelloWorld />
     <scrollDown />
     <b-container
@@ -57,6 +61,7 @@ import scrollDown from "@/components/scrolldown.vue";
 
 export default {
   name: "Home",
+  props:["isSwipe"],
   components: {
     HelloWorld,
     scrollDown,
@@ -114,5 +119,17 @@ export default {
   
 }
 
+.logo2{
+  position:fixed;
+  z-index:10000;
+  top:40px;
+  width:100%;
+display:flex;
+justify-content: center;
+}
 
+.logo2 img{
+    width:100px;
+     
+}
 </style>

@@ -2,9 +2,9 @@
   <div id="app">
     <screenSplash class="splash" :isLoading="isLoading" />
     <div v-if="!isLoading1">
-      <navbar class="nav-bar" :isSwipe="isSwipe"/>
-      <router-view />
-      <ScrollToTop :scrollToTop="scroll"/>
+      <navbar class="nav-bar" :isSwipe="isSwipe" />
+      <router-view :isSwipe="isSwipe"/>
+      <ScrollToTop :scrollToTop="scroll" />
       <Foot />
     </div>
   </div>
@@ -27,8 +27,10 @@ export default {
     setTimeout(() => {
       this.isLoading1 = false;
     }, 6300);
-    window.addEventListener("scroll", this.swap);
-     window.addEventListener("scroll", this.scrollToTop);
+    window.addEventListener("scroll", () => {
+      this.swap();
+      this.scrollToTop();
+    });
   },
   components: {
     navbar,
@@ -37,10 +39,11 @@ export default {
     ScrollToTop,
   },
   data() {
-    return { isLoading: true, isLoading1: true, isSwipe: true , scroll:false};
+    return { isLoading: true, isLoading1: true, isSwipe: true, scroll: false };
   },
 
   methods: {
+    /* this is a function to affect the display state of the samkay logo on the navbar and the logo on the pictures */
     swap() {
       let pos = window.pageYOffset || document.documentElement.scrollTop;
       if (pos > 90) {
@@ -49,9 +52,10 @@ export default {
         this.isSwipe = true;
       }
     },
-    scrollToTop(){
- let point = window.pageYOffset || document.documentElement.scrollTop;
-      if (point >300) {
+    /* this is a function in that communicates to the prop in the scroll to top component to affect the visibility at some point in the window  */
+    scrollToTop() {
+      let position = window.pageYOffset || document.documentElement.scrollTop;
+      if (position > 300) {
         this.scroll = true;
       } else {
         this.scroll = false;

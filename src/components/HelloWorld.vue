@@ -1,6 +1,6 @@
 <template>
   <div class="helloworld">
-    <div class="backdrop">
+       <div class="backdrop">
       <b-carousel fade :interval="4000" indicators>
         <b-carousel-slide v-for="img in carousel_img" :key="img">
           <template v-slot:img>
@@ -22,9 +22,12 @@ export default {
   data() {
     return {
       sliding: null,
-      carousel_img:[
-"https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_5190_wfddyd.jpg","https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_7085_ojc0vk.jpg","https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/IMG_3078_l5aosz.jpg","https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/IMG_3061_xtwcsq.jpg"
-      ]
+      carousel_img: [
+        "https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_5190_wfddyd.jpg",
+        "https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_7085_ojc0vk.jpg",
+        "https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/IMG_3078_l5aosz.jpg",
+        "https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/IMG_3061_xtwcsq.jpg",
+      ],
     };
   },
   methods: {},
@@ -41,9 +44,6 @@ export default {
   overflow-x: hidden;
   background: rgba(209, 207, 207, 0.349);
   text-align: center;
-  margin-bottom:10vh;
-  
+  margin-bottom: 10vh;
 }
-
-
 </style>
