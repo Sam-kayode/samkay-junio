@@ -1,7 +1,7 @@
 <template>
   <div>
 <section id="scrollDown" class="demo">
-  <a href="#section08"><span></span><span></span><span></span><p>
+  <a v-scroll-to="{ element: '#content', duration: 1300 }"><span></span><span></span><span></span><p>
   Scroll</p></a>
 </section>
   </div>
@@ -24,6 +24,7 @@
 z-index:400;
 margin-left: calc(50% - 15px) ;  text-decoration: none;
 text-align:center;
+cursor: pointer;
 
 }
 #scrollDown a:hover {

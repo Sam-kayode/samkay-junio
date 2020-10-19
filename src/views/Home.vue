@@ -1,10 +1,10 @@
 <template>
-  <div class="home">
+  <div class="home " id="top">
     <HelloWorld />
     <scrollDown />
     <b-container
-      ><div class="content px-2">
-        <h3>Welcome to Sam-kay Photography website!</h3>
+      id="content"><div class="content px-2 pt-5" >
+        <h3 >Welcome to Sam-kay Photography website!</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quo
           voluptas, molestiae officia laboriosam obcaecati rem modi at
@@ -74,11 +74,14 @@ export default {
 .home {
   width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .content {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    scroll-behavior: smooth;
+
 }
 
 .content p {

@@ -2,8 +2,9 @@
   <div id="app">
     <screenSplash class="splash" :isLoading="isLoading" />
     <div v-if="!isLoading1">
-      <navbar class="nav-bar" :isSwipe="isSwipe" />
+      <navbar class="nav-bar" :isSwipe="isSwipe"/>
       <router-view />
+      <ScrollToTop :scrollToTop="scroll"/>
       <Foot />
     </div>
   </div>
@@ -15,7 +16,9 @@
 <script>
 import navbar from "@/components/navbar.vue";
 import screenSplash from "@/components/screenSplash.vue";
-import Foot from "@/components/footer.vue"
+import Foot from "@/components/footer.vue";
+import ScrollToTop from "@/components/scrollToTop.vue";
+
 export default {
   mounted() {
     setTimeout(() => {
@@ -25,22 +28,33 @@ export default {
       this.isLoading1 = false;
     }, 6300);
     window.addEventListener("scroll", this.swap);
+     window.addEventListener("scroll", this.scrollToTop);
   },
   components: {
     navbar,
-    screenSplash,Foot
+    screenSplash,
+    Foot,
+    ScrollToTop,
   },
   data() {
-    return { isLoading: true, isLoading1: true, isSwipe: true };
+    return { isLoading: true, isLoading1: true, isSwipe: true , scroll:false};
   },
 
   methods: {
     swap() {
       let pos = window.pageYOffset || document.documentElement.scrollTop;
       if (pos > 90) {
-        this.isSwipe =false;
+        this.isSwipe = false;
       } else {
-        this.isSwipe= true;
+        this.isSwipe = true;
+      }
+    },
+    scrollToTop(){
+ let point = window.pageYOffset || document.documentElement.scrollTop;
+      if (point >300) {
+        this.scroll = true;
+      } else {
+        this.scroll = false;
       }
     },
   },
@@ -63,6 +77,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #nav a.router-link-exact-active {

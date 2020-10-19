@@ -237,7 +237,7 @@ max-width:210px;
     fill:transparent;
   }
   to{
-    fill: rgb(46, 2, 2);
+    fill: rgb(97, 13, 13);
   }
 } 
 

@@ -248,7 +248,7 @@ margin-top: 50px;
 .side-nav {
   width: 100vw;
   top: 30px;
-  height: calc(100vh - 40px);
+  height: calc(100vh - 30px);
   position: fixed;
   z-index: 4000;
   background-color: #eeede7;
