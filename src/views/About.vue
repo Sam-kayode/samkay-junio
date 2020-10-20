@@ -1,22 +1,79 @@
 <template>
-  <div class="about">
+  <div class="about pt-5" id="top">
     <b-container>
-      <div class="about-img">
-        <img src="" alt="" />
+      <div class="about-img mt-5">
+        <img alt="" />
+        <b-img
+          src="https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_5190_wfddyd.jpg"
+          fluid
+          alt="Fluid image"
+        ></b-img>
       </div>
 
-      <h1>Hello,</h1>
+      <h1 class="my-5">Hello,</h1>
       <h4>
-        I’m Clayton Herrera, a professional photographer living in San
-        Francisco.
+        I’m Sam-kay Jr, a professional photographer specializing in
+        Lifestyle,Potrait, and Fashion Photography living in Ibadan, Nigeria.
       </h4>
+      <br />
+      <p class="description">
+        Great photography comes with understanding customer needs.I would like
+        to give you a unique photography experience,built to serve you best and
+        capture your special moments for you creatively and
+        beautifully.Photography is my passion and I love to turn ideas into
+        beautiful things. Looking for a caring, fun, passionate and creative
+        photographer? It's me!
+      </p>
+      <h3 class="my-5">My Passion = Your Moments</h3>
     </b-container>
+    <div class="hire-me py-5">
+      <b-container>
+        <p>- ALREADY LOVE MY WORKS? SO WHAT ARE YOU WAITING FOR?</p>
+        <h4>Let’s Make Something Great!</h4>
+        <div class="button text-center py-3">
+          <b-button squared variant="info" class="button p-3">
+            GET IN TOUCH
+          </b-button>
+        </div></b-container
+      >
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  components: {},
+};
 </script>
 
 <style scoped>
+.about {
+  color: #504d4d;
+  line-height: 35px;
+}
+h1 {
+  font-weight: bolder;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+h4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.description {
+  font-size: 23px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.hire-me{
+  background-color: #dddbdb;
+  color: black;
+}
 </style>
