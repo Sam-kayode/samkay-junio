@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div class="footer pt-3">
     <b-container>
       <b-row>
         <b-col class="links text-center p-1 my-4">
@@ -29,7 +29,7 @@
     </b-container>
 
     <div class="text-center copyright bg-light p-2">
-      © 2020 Sam-kay Photography. All rights reserved.
+      © 2020 Samkay Photography. All rights reserved.
     </div>
   </div>
 </template>

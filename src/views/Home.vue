@@ -35,7 +35,7 @@
           </div>
         </b-col>
 
-        <b-col class="cardi">
+        <b-col class="cardi p-2">
           <div class="icons text-center p-3">
             <b-icon
               icon="hourglass-split
@@ -66,10 +66,44 @@
         </b-col>
       </b-row>
 
-    <div class="sub-sec">
-      <h2>In our Blood, <br>There Is the Creativity.</h2>
-    </div>
+      <div class="sub-sec pl-4">
+        <h2>In our Blood, <br />There Is the Creativity.</h2>
+        <div class="my-4 text-left">
+          <div>
+            <b-icon icon="camera" font-scale="3"></b-icon>
+            <h5>Studio Shooting</h5>
+            <p>
+              I offer a complete, tailor-made photo editorial service. I manage
+              a database with journalistic photos
+            </p>
+          </div>
+          <div>
+            <b-icon icon="hdd-stack-fill" font-scale="3" class="mt-2"></b-icon>
+            <h5>Print Studio</h5>
+            <p>
+              Besides that, I know our way around photo databases and stock
+              photos, so that we always find the perfect fit
+            </p>
+          </div>
+        </div>
+      </div>
+     
     </b-container>
+     <div id="back" class="p-5 mt-5"> 
+        <div class="to-gallery my-4 p-5 text-center">
+          <h5 class="my-5">Start Something New</h5>
+          <p class="my-5">
+            I appreciate the raw reality of everyday life, the fleeting beauty
+            of those in-between moments, and I do my very best to take every
+            picture with that in mind. I want my viewers to relate to my
+            photographs through recognition of and familiarity with the
+            situations.
+          </p>
+          <b-button squared variant="info" class="button p-3"
+            >GET IN TOUCH</b-button
+          >
+        </div>
+      </div>
   </div>
 </template>
 
@@ -108,8 +142,7 @@ export default {
 
 .content p {
   text-align: justify;
-  font-family: 'Philosopher', sans-serif;
-
+  font-family: "Philosopher", sans-serif;
 }
 
 .logo1 {
@@ -123,14 +156,14 @@ export default {
   width: 80px;
 }
 .content h3 {
-  font-size: 35px;
-font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: bolder;
 }
 
 .icon-desc h4 {
-font-family: 'Nunito Sans', sans-serif;
-font-weight:bolder;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
 }
 
 .cardi {
@@ -152,9 +185,35 @@ font-weight:bolder;
   width: 100px;
 }
 
-.sub-sec h2{
-  font-weight:bolder;
-font-family: 'nunito sans', sans-serif;
+.sub-sec h2 {
+  font-weight: bolder;
+  font-family: "nunito sans", sans-serif;
+}
 
+
+
+
+
+#back{
+  background-size: cover;
+   background: linear-gradient(rgba(24, 21, 21, 0.5), rgba(22, 20, 20, 0.5)) ,  url("https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/IMG_3061_xtwcsq.jpg") center center;
+  background-size: cover;
+  color:white;
+}
+
+
+.to-gallery p {
+  font-size: 15px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+}
+
+h5 {
+  font-weight: bolder;
+}
+
+.button {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 11px;
 }
 </style>
