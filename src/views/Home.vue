@@ -89,8 +89,8 @@
       </div>
      
     </b-container>
-     <div id="back" class="p-5 mt-5"> 
-        <div class="to-gallery my-4 p-5 text-center">
+     <div id="back" class="py-5 mt-5"> 
+        <div class="to-gallery my-4 py-5 px-4 text-center">
           <h5 class="my-5">Start Something New</h5>
           <p class="my-5">
             I appreciate the raw reality of everyday life, the fleeting beauty
@@ -142,7 +142,11 @@ export default {
 
 .content p {
   text-align: justify;
-  font-family: "Philosopher", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+p{
+font-size:18px;
 }
 
 .logo1 {
@@ -196,24 +200,25 @@ export default {
 
 #back{
   background-size: cover;
-   background: linear-gradient(rgba(24, 21, 21, 0.5), rgba(22, 20, 20, 0.5)) ,  url("https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/IMG_3061_xtwcsq.jpg") center center;
+   background: linear-gradient(rgba(24, 21, 21, 0.6), rgba(22, 20, 20, 0.6)) ,  url("https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/IMG_3061_xtwcsq.jpg") center center;
   background-size: cover;
   color:white;
 }
 
 
 .to-gallery p {
-  font-size: 15px;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 h5 {
   font-weight: bolder;
+  font-size:30px;
 }
 
 .button {
   font-family: sans-serif;
   font-weight: bolder;
-  font-size: 11px;
+  font-size: 15px;
 }
 </style>

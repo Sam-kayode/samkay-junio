@@ -1,18 +1,18 @@
 <template>
-  <div class="about pt-5" id="top">
-    <b-container>
-      <div class="about-img mt-5">
-        <img alt="" />
-        <b-img
-          src="https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_5190_wfddyd.jpg"
-          fluid
-          alt="Fluid image"
-        ></b-img>
-      </div>
+  <div class="about pt-3" id="top">
+    <div class="about-img text-center">
+       <b-img
+        src="https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_5190_wfddyd.jpg"
+        
+        alt="Fluid image"
+        class="portfolio-img">
+        </b-img>
+    </div>
 
+    <b-container>
       <h1 class="my-5">Hello,</h1>
       <h4>
-        I’m Sam-kay Jr, a professional photographer specializing in
+        I’m Sam-kay Jr, <br>a professional photographer specializing in
         Lifestyle,Potrait, and Fashion Photography living in Ibadan, Nigeria.
       </h4>
       <br />
@@ -72,8 +72,17 @@ h4 {
   font-family: "Nunito Sans", sans-serif;
 }
 
-.hire-me{
+.hire-me {
   background-color: #dddbdb;
   color: black;
+}
+
+.about-img{
+  background-color: #f0f0f0;
+
+}
+
+.portfolio-img {
+  height: 500px;
 }
 </style>
