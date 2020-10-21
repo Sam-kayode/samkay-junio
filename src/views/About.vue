@@ -1,5 +1,5 @@
 <template>
-  <div class="about pt-3" id="top">
+  <div class="about pt-5" id="top">
     <div class="about-img text-center">
        <b-img
         src="https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288706/samkaystudios/profilePic_osn1hn.jpg"
