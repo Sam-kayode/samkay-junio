@@ -146,7 +146,7 @@ export default {
 }
 
 p{
-font-size:18px;
+font-size:19px;
 }
 
 .logo1 {
@@ -207,7 +207,7 @@ font-size:18px;
 
 
 .to-gallery p {
-  font-size: 18px;
+  font-size: 19px;
   font-family: "Nunito Sans", sans-serif;
 }
 
@@ -219,6 +219,6 @@ h5 {
 .button {
   font-family: sans-serif;
   font-weight: bolder;
-  font-size: 15px;
+  font-size: 16px;
 }
 </style>

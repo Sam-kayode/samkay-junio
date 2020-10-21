@@ -2,7 +2,7 @@
   <div class="about pt-3" id="top">
     <div class="about-img text-center">
        <b-img
-        src="https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_5190_wfddyd.jpg"
+        src="https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288706/samkaystudios/profilePic_osn1hn.jpg"
         
         alt="Fluid image"
         class="portfolio-img">
@@ -10,7 +10,7 @@
     </div>
 
     <b-container>
-      <h1 class="my-5">Hello,</h1>
+      <h1 class="my-3">Hello,</h1>
       <h4>
         I’m Sam-kay Jr, <br>a professional photographer specializing in
         Lifestyle,Potrait, and Fashion Photography living in Ibadan, Nigeria.
@@ -63,12 +63,11 @@ h3 {
 h4 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: bolder;
-  font-size: 26px;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 .description {
-  font-size: 23px;
+  font-size: 19px;
   font-family: "Nunito Sans", sans-serif;
 }
 
@@ -77,12 +76,17 @@ h4 {
   color: black;
 }
 
+.hire-me p{
+font-size:20px;
+  font-family: "Nunito Sans", sans-serif;
+font-weight:bolder;
+}
 .about-img{
   background-color: #f0f0f0;
 
 }
 
 .portfolio-img {
-  height: 500px;
+  height: 450px;
 }
 </style>

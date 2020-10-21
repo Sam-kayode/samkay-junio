@@ -52,6 +52,7 @@ export default {
 
 .links li {
   list-style: none;
+  font-size:19px;
 }
 
 .links p {

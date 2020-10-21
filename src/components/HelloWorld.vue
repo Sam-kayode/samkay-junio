@@ -23,10 +23,11 @@ export default {
     return {
       sliding: null,
       carousel_img: [
-        "https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_5190_wfddyd.jpg",
-        "https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/DSC_7085_ojc0vk.jpg",
-        "https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/IMG_3078_l5aosz.jpg",
-        "https://res.cloudinary.com/sam-kay/image/upload/v1601995981/samkay%20junio/IMG_3061_xtwcsq.jpg",
+        "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288705/samkaystudios/carousel1_bh1idr.jpg",
+        "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288701/samkaystudios/carousel3_xowla3.jpg",
+        "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288705/samkaystudios/carousel2_lutw7j.jpg",
+        "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288706/samkaystudios/carousel4_uos5n4.jpg",
+        "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288706/samkaystudios/carousel5_wo62sn.jpg"
       ],
     };
   },
