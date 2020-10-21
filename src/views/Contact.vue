@@ -94,9 +94,7 @@ export default {
    background: linear-gradient(rgba(24, 21, 21, 0.7), rgba(22, 20, 20, 0.7)) ,  url("https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603296618/samkaystudios/camera_aabqmb.jpg") center center;
   background-size: cover;
   color:white;
-  min-height:90vh;
     font-size: 19px;
-    background-attachment: fixed;
 }
 h1{
     font-family: "Philosopher", sans-serif;
