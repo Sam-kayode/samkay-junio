@@ -90,7 +90,7 @@
      
     </b-container>
      <div id="back" class="py-5 mt-5"> 
-        <div class="to-gallery my-4 py-5 px-4 text-center">
+        <b-container><div class="to-gallery my-4 py-5 text-center">
           <h5 class="my-5">Start Something New</h5>
           <p class="my-5">
             I appreciate the raw reality of everyday life, the fleeting beauty
@@ -102,7 +102,7 @@
           <b-button squared variant="info" class="button p-3"
             >GET IN TOUCH</b-button
           >
-        </div>
+        </div></b-container>
       </div>
   </div>
 </template>

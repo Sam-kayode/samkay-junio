@@ -24,7 +24,7 @@
         beautiful things. Looking for a caring, fun, passionate and creative
         photographer? It's me!
       </p>
-      <h3 class="my-5">My Passion = Your Moments</h3>
+      <h4 class="my-5">My Passion = Your Moments</h4>
     </b-container>
     <div class="hire-me py-5">
       <b-container>

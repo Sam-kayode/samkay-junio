@@ -56,7 +56,7 @@
 
     <!-- side nav-->
     <transition name="fade">
-      <div class="side-nav" v-if="toggled">
+      <div class="side-nav text-center" v-if="toggled">
         <!-- <div class="paatern">  <img src="../assets/Taieri.png" alt=""></div> -->
 
         <ul>
