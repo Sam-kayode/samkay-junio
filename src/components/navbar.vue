@@ -42,7 +42,7 @@
           <router-link to="/about">Gallery</router-link>
         </li>
         <li class="navlink">
-          <router-link to="/about">About</router-link>
+          <router-link to="/gallery">About</router-link>
         </li>
 
         <li class="navlink">
