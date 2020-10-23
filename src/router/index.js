@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Gallery from '../views/Gallery.vue'
-import fashion from '../views/Gallery/fashion.vue'
+
 
 Vue.use(VueRouter)
 
@@ -29,11 +29,14 @@ const routes = [
       name: 'Gallery',
       component: Gallery,children:[
         {path:'/Gallery/all ',
-        component: () => import(/* webpackChunkName: "about" */ '@/views/Gallery/all.vue')
+        component: () => import(/* webpackChunkName: "about" */ '../views/Gallery/all.vue')
       },
       {path:'/Gallery/fashion ',
-      component:fashion
-    }
+      component: () => import(/* webpackChunkName: "about" */ '../views/Gallery/fashion.vue')    },
+      {path:'/Gallery/f=beauty ',
+      component: () => import(/* webpackChunkName: "about" */ '../views/Gallery/beauty.vue')    },
+      {path:'/Gallery/potrait ',
+      component: () => import(/* webpackChunkName: "about" */ '../views/Gallery/potrait.vue')    },
 
       ]  },
 
