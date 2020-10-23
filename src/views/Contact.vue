@@ -97,7 +97,7 @@ export default {
 .contact {
   background-size: cover;
   background: linear-gradient(rgba(24, 21, 21, 0.7), rgba(22, 20, 20, 0.7)),
-    url("../assets/ll.jpg")   center !important;
+    url("https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603464926/samkaystudios/ll_zeqgtn.jpg")   center !important;
   background-size: cover !important;
   color: white;
   font-size: 19px;
