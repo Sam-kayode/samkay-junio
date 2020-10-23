@@ -23,7 +23,7 @@
   }
 </script>
 
-<style>
+<style scoped>
 h1{
   background:url("https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603464926/samkaystudios/ll_zeqgtn.jpg");
   background-size:contain;
