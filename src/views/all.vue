@@ -48,10 +48,10 @@ export default {
           src: "https://res.cloudinary.com/samkay-studios/image/upload/q_auto/samkaystudios/potrait/FLA_4262_wqbven.jpg",
         },
         {
-          thumb: "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low//samkaystudios/potrait/LJS_2023_gb4pyg.jpg",
+          thumb: "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/samkaystudios/potrait/LJS_2023_gb4pyg.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/q_auto/samkaystudios/potrait/LJS_2023_gb4pyg.jpg"},
         {
-          thumb: "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low//samkaystudios/potrait/IMG_8430_vbc5tb.jpg",
+          thumb: "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/samkaystudios/potrait/IMG_8430_vbc5tb.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/q_auto/samkaystudios/potrait/IMG_8430_vbc5tb.jpg",
         },
         {
