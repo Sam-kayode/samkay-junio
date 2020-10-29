@@ -2,10 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
 import router from './router'
+import VueDrift from 'vue-drift'
 import '@morioh/v-lightbox/dist/lightbox.css';
 import Lightbox from '@morioh/v-lightbox'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import VueDrift from 'vue-drift'
 
 Vue.use(Lightbox);
 Vue.use(BootstrapVue)
