@@ -56,6 +56,7 @@ export default {
 .about {
   color: #504d4d;
   line-height: 35px;
+  min-height:100vh;
 }
 h1 {
   font-weight: bolder;

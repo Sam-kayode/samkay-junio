@@ -103,7 +103,8 @@ export default {
   font-size: 19px;
   padding-top:50px !important;
 overflow-x:hidden;
-max-height:1900px;
+min-height:100vh;
+
 }
 h1 {
   font-family: "Philosopher", sans-serif;
