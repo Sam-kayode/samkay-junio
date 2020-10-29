@@ -31,7 +31,10 @@ export default {
       this.swap();
       this.scrollToTop();
     });
-    
+     this.$drift.identify('SOME_USER_ID', {
+      name: 'SOME_USER_NAME',
+      email: 'SOME_USER_EMAIL'
+    })
   },
   components: {
     navbar,
