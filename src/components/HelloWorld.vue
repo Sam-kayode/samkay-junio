@@ -50,8 +50,14 @@ export default {
 }
 
 
-@media(min-height:750px){
+@media(min-height:730px){
 .pic {
-  max-height: 70vh;}
+  height: 70vh;}
+}
+
+
+@media(min-height:900px){
+.pic {
+  max-height: 86vh;}
 }
 </style>
