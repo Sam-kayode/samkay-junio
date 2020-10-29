@@ -31,6 +31,7 @@ export default {
       this.swap();
       this.scrollToTop();
     });
+    
   },
   components: {
     navbar,
