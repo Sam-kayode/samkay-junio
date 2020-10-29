@@ -46,7 +46,7 @@ export default {
     /* this is a function to affect the display state of the samkay logo on the navbar and the logo on the pictures */
     swap() {
       let pos = window.pageYOffset || document.documentElement.scrollTop;
-      if (pos > 90) {
+      if (pos > 10) {
         this.isSwipe = false;
       } else {
         this.isSwipe = true;
@@ -55,7 +55,7 @@ export default {
     /* this is a function in that communicates to the prop in the scroll to top component to affect the visibility at some point in the window  */
     scrollToTop() {
       let position = window.pageYOffset || document.documentElement.scrollTop;
-      if (position > 300) {
+      if (position > 100) {
         this.scroll = true;
       } else {
         this.scroll = false;

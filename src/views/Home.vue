@@ -66,10 +66,10 @@
         </b-col>
       </b-row>
 
-      <div class="sub-sec pl-4">
+      <div class="sub-sec pl-4 text-center">
         <h2>In our Blood, <br />There Is the Creativity.</h2>
-        <div class="my-4 text-left">
-          <div>
+        <div class="my-4 text-left row text-center">
+          <div class="offer col-md-6">
             <b-icon icon="camera" font-scale="3"></b-icon>
             <h5>Studio Shooting</h5>
             <p>
@@ -77,12 +77,12 @@
               a database with journalistic photos
             </p>
           </div>
-          <div>
+          <div class="offer col-md-6">
             <b-icon icon="hdd-stack-fill" font-scale="3" class="mt-2"></b-icon>
             <h5>Print Studio</h5>
             <p>
-              Besides that, I know our way around photo databases and stock
-              photos, so that we always find the perfect fit
+              Besides that, I know my way around photo databases and stock
+              photos, so that I always find the perfect fit
             </p>
           </div>
         </div>
@@ -221,4 +221,6 @@ h5 {
   font-weight: bolder;
   font-size: 16px;
 }
+
+
 </style>

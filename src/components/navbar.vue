@@ -39,7 +39,7 @@
           <router-link to="/">Home</router-link>
         </li>
         <li class="navlink">
-          <router-link to="/gallery">Gallery</router-link>
+          <router-link to="/Gallery/all">Gallery</router-link>
         </li>
         <li class="navlink">
           <router-link to="/about">About</router-link>
@@ -48,9 +48,9 @@
         <li class="navlink">
           <router-link to="/contact">Contact</router-link>
         </li>
-        <li class="navlink">
+       <!--  <li class="navlink">
           <router-link to="/pricing">Pricing</router-link>
-        </li>
+        </li> -->
       </ul>
     </div>
 
@@ -64,7 +64,7 @@
             <router-link to="/">Home</router-link>
           </li>
           <li class="side-link" @click="toggle">
-            <router-link to="/Gallery">Gallery</router-link>
+            <router-link to="/Gallery/all">Gallery</router-link>
           </li>
           <li class="side-link" @click="toggle">
             <router-link to="/about">About</router-link>
@@ -73,9 +73,9 @@
           <li class="side-link" @click="toggle">
             <router-link to="/contact">Contact</router-link>
           </li>
-          <li class="side-link" @click="toggle">
+         <!--  <li class="side-link" @click="toggle">
             <router-link to="/pricing">Pricing</router-link>
-          </li>
+          </li> -->
         </ul>
       </div>
     </transition>
@@ -109,6 +109,7 @@ html {
   height: 45px;
   background-color: white;
   border-bottom: 1px solid #b9b6b6;
+  font-family:"Nunito Sans", sans-serif;
 }
 .harmburger {
   background-color: #ffffff;

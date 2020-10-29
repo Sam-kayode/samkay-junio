@@ -1,6 +1,10 @@
 <template>
   <div class="about pt-5" id="top">
-    <div class="about-img text-center">
+     <transition name="fade">
+      <div class="logo2" v-if="isSwipe">
+        <img src="../assets/samkay.png" alt="" /></div
+    ></transition>
+    <div class="about-img text-center  mt-5">
        <b-img
         src="https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288706/samkaystudios/profilePic_osn1hn.jpg"
         
@@ -42,6 +46,8 @@
 
 <script>
 export default {
+         props: ["isSwipe"],
+
   components: {},
 };
 </script>
@@ -87,6 +93,19 @@ font-weight:bolder;
 }
 
 .portfolio-img {
-  height: 450px;
+  height: 500px;
+}
+
+.logo2 {
+  position: fixed;
+  z-index: 1000;
+  top: 47px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo2 img {
+  width: 100px;
 }
 </style>

@@ -23,8 +23,8 @@ export default {
     return {
       sliding: null,
       carousel_img: [
-        "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288705/samkaystudios/carousel2_lutw7j.jpg",
         "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288705/samkaystudios/carousel1_bh1idr.jpg",
+        "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288705/samkaystudios/carousel2_lutw7j.jpg",
         "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288701/samkaystudios/carousel3_xowla3.jpg",
         "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288706/samkaystudios/carousel4_uos5n4.jpg",
         "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603288706/samkaystudios/carousel5_wo62sn.jpg",
@@ -36,8 +36,9 @@ export default {
 </script>
 <style scoped>
 .pic {
-  height: 80vh;
+  max-height:85.5vh;
   margin-top: 45px;
+  margin:45px auto 0 auto;
 }
 
 .backdrop {
@@ -45,6 +46,12 @@ export default {
   overflow-x: hidden;
   background: rgba(209, 207, 207, 0.349);
   text-align: center;
-  margin-bottom: 10vh;
+  margin-bottom: 70px;
+}
+
+
+@media(min-height:750px){
+.pic {
+  max-height: 70vh;}
 }
 </style>

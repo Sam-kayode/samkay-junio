@@ -1,6 +1,10 @@
 <template>
-  <div class="pt-5">
- <h1 class="heading text-center">
+  <div class="pt-5 " id="top">
+     <transition name="fade">
+      <div class="logo2" v-if="isSwipe">
+        <img src="../assets/samkay.png" alt="" /></div
+    ></transition>
+ <h1 class="heading text-center pt-4">
    Gallery
  </h1>
 
@@ -12,14 +16,15 @@
               <router-link to="/Gallery/potrait" class="px-2">Potrait</router-link>
 
    </ul>     
-    <router-view></router-view>
+    <router-view/>
 
   </div>
 </template>
 
 <script>
   export default {
-     
+       props: ["isSwipe"],
+
   }
 </script>
 
@@ -33,5 +38,17 @@ background-clip: text;
 color:transparent;
 font-weight:Bolder;
 
+}
+.logo2 {
+  position: fixed;
+  z-index: 1000;
+  top: 47px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo2 img {
+  width: 100px;
 }
 </style>
