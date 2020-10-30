@@ -108,7 +108,7 @@ html {
   width: 100vw !important;
   height: 45px;
   background-color: white;
-  border-bottom: 1px solid #7e1f1f;
+  border-bottom: 1px solid #e2dfdf;
   font-family:"Nunito Sans", sans-serif;
 }
 .harmburger {

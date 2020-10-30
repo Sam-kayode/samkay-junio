@@ -93,6 +93,8 @@ export default {
 }
 .logo2 img {
   width: 100px !important;
+    height:40px;
+
 }
 .contact {
   background-size: cover;

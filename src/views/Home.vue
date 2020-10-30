@@ -187,6 +187,7 @@ font-size:19px;
 
 .logo2 img {
   width: 100px;
+  height:40px;
 }
 
 .sub-sec h2 {

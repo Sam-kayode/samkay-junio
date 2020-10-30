@@ -108,5 +108,7 @@ font-weight:bolder;
 
 .logo2 img {
   width: 100px;
+    height:40px;
+
 }
 </style>
