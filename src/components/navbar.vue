@@ -108,7 +108,7 @@ html {
   width: 100vw !important;
   height: 45px;
   background-color: white;
-  border-bottom: 1px solid #b9b6b6;
+  border-bottom: 1px solid #7e1f1f;
   font-family:"Nunito Sans", sans-serif;
 }
 .harmburger {
@@ -242,6 +242,8 @@ margin-top: 50px;
   color: black;
   text-decoration: none;
   font-size: 15px;
+    font-family:"Nunito Sans", sans-serif;
+
 }
 /* side-nav */
 .side-nav {
@@ -255,6 +257,8 @@ margin-top: 50px;
   justify-content: center;
   align-items: center;
   transition: 0.3s ease-in-out;
+    font-family:"Nunito Sans", sans-serif;
+
 }
 .side-nav ul {
   margin: 0;

@@ -42,7 +42,6 @@ export default {
                {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875844/samkaystudios/fashion/FLA_4262_hxz035.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875844/samkaystudios/fashion/FLA_4262_hxz035.jpg",
-          caption: "Dog",
         },
     
       ],

@@ -52,53 +52,46 @@ export default {
         {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/samkaystudios/beauty/lci04mdlfb8euxodr0re.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/samkaystudios/beauty/lci04mdlfb8euxodr0re.jpg",
-          caption: "Maybug",
         },
         {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875918/samkaystudios/potrait/LJS_2023_gb4pyg.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875918/samkaystudios/potrait/LJS_2023_gb4pyg.jpg",
-          caption: "An RC Car",
         },
         {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875917/samkaystudios/potrait/IMG_8430_vbc5tb.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875917/samkaystudios/potrait/IMG_8430_vbc5tb.jpg",
-          caption: "Two tourists on a mountain",
+          caption: "",
         },
         {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875917/samkaystudios/potrait/LJS_0876_kkcd4c.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875917/samkaystudios/potrait/LJS_0876_kkcd4c.jpg",
-          caption: "Dog",
+          caption: "",
         },
         {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875917/samkaystudios/potrait/IMG_3152_okafhv.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875917/samkaystudios/potrait/IMG_3152_okafhv.jpg",
           caption:
-            "Mmm, Beer! - This should be a short description, as it is after all, beer, but let's make it long so that we can test how the footer looks",
+            "",
         },
          {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875917/samkaystudios/potrait/IMG_3140_rceinh.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875917/samkaystudios/potrait/IMG_3140_rceinh.jpg",
-          caption: "Dog",
         },
          {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875915/samkaystudios/potrait/DSC_5190_bgjppo.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875915/samkaystudios/potrait/DSC_5190_bgjppo.jpg",
-          caption: "Dog",
         },
          {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875915/samkaystudios/potrait/DSC_5840_ccqsft.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875915/samkaystudios/potrait/DSC_5840_ccqsft.jpg",
-          caption: "Dog",
         },
          {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875915/samkaystudios/potrait/DSC_5829_po9ng1.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875915/samkaystudios/potrait/DSC_5829_po9ng1.jpg",
-          caption: "Dog",
         },
          {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875915/samkaystudios/potrait/LJS_2455_xhdwho.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875915/samkaystudios/potrait/LJS_2455_xhdwho.jpg",
-          caption: "Dog",
         },
         
         

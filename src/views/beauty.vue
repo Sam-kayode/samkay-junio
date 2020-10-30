@@ -40,22 +40,18 @@ export default {
            {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875817/samkaystudios/beauty/LJS_2217_sfpejs.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875817/samkaystudios/beauty/LJS_2217_sfpejs.jpg",
-          caption: "Dog",
         },
          {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875818/samkaystudios/beauty/IMG_3061_tsky8j.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875818/samkaystudios/beauty/IMG_3061_tsky8j.jpg",
-          caption: "Dog",
         },
          {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875818/samkaystudios/beauty/DSC_7085_jioyv8.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875818/samkaystudios/beauty/DSC_7085_jioyv8.jpg",
-          caption: "Dog",
         },
          {
           thumb: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875819/samkaystudios/beauty/lci04mdlfb8euxodr0re.jpg",
           src: "https://res.cloudinary.com/samkay-studios/image/upload/v1603875819/samkaystudios/beauty/lci04mdlfb8euxodr0re.jpg",
-          caption: "Dog",
         },
       ],
     };
