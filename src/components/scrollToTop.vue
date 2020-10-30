@@ -17,7 +17,7 @@ export default {
 <style scoped>
 .scrollToTop{
   position:fixed;
-  top:78vh;
+  bottom:22vh;
   right:30px;
   z-index:10;
    cursor:pointer;
