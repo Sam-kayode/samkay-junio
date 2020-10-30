@@ -48,7 +48,7 @@
         <li class="navlink">
           <router-link to="/contact">Contact</router-link>
         </li>
-       <!--  <li class="navlink">
+        <!--  <li class="navlink">
           <router-link to="/pricing">Pricing</router-link>
         </li> -->
       </ul>
@@ -73,7 +73,7 @@
           <li class="side-link" @click="toggle">
             <router-link to="/contact">Contact</router-link>
           </li>
-         <!--  <li class="side-link" @click="toggle">
+          <!--  <li class="side-link" @click="toggle">
             <router-link to="/pricing">Pricing</router-link>
           </li> -->
         </ul>
@@ -109,7 +109,7 @@ html {
   height: 45px;
   background-color: white;
   border-bottom: 1px solid #e2dfdf;
-  font-family:"Nunito Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 .harmburger {
   background-color: #ffffff;
@@ -242,8 +242,7 @@ margin-top: 50px;
   color: black;
   text-decoration: none;
   font-size: 15px;
-    font-family:"Nunito Sans", sans-serif;
-
+  font-family: "Nunito Sans", sans-serif;
 }
 /* side-nav */
 .side-nav {
@@ -257,14 +256,14 @@ margin-top: 50px;
   justify-content: center;
   align-items: center;
   transition: 0.3s ease-in-out;
-    font-family:"Nunito Sans", sans-serif;
-
+  font-family: "Nunito Sans", sans-serif;
 }
 .side-nav ul {
   margin: 0;
   padding: 0;
 }
 .side-nav li {
+
   list-style: none;
   text-decoration: none;
   padding: 20px 0px !important;
@@ -276,7 +275,7 @@ margin-top: 50px;
   text-decoration: none;
   color: rgb(0, 0, 0);
   z-index: 50;
-  font-size: 21px;
+  font-size: 26px;
 }
 
 .side-nav li:hover {
