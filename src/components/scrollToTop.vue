@@ -18,7 +18,7 @@ export default {
 .scrollToTop{
   position:fixed;
   bottom:22vh;
-  right:30px;
+  right:25px;
   z-index:10;
    cursor:pointer;
    transform: rotate(20deg); 
