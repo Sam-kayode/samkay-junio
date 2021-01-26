@@ -10,10 +10,7 @@
       ><div class="content px-2 pt-5">
         <h3>Welcome to Samkay Photography website!</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quo
-          voluptas, molestiae officia laboriosam obcaecati rem modi at
-          provident, dignissimos pariatur maiores officiis temporibus possimus,
-          explicabo atque perferendis neque fugiat?
+         With our accumulated knowledge and experience we don't simply take beautiful pictures,we create art that has impact, using experience, creativity and out-of the-box thinking are applied to create unique images that define you in unique style.
         </p>
       </div>
     </b-container>
@@ -29,8 +26,7 @@
           <div class="icon-desc">
             <h4 class="text-center p-1">CREATIVITY</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              temporibus illo?
+             Our creative process involves the use of the imagination and original ideas to create memorabel shots that produces love for looks you did not know you had.
             </p>
           </div>
         </b-col>
@@ -47,8 +43,7 @@
           <div class="icon-desc">
             <h4 class="text-center p-1">PRODUCTIVITY</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              temporibus illo?
+             Creativity beyond the norm that sets the standard for photography globally.
             </p>
           </div>
         </b-col>
@@ -59,8 +54,7 @@
           <div class="icon-desc">
             <h4 class="text-center p-1">QUALITY</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              temporibus illo?
+             Images of beauty and quality that leave our clients with the want for more.
             </p>
           </div>
         </b-col>

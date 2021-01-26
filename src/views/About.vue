@@ -79,8 +79,10 @@ h4 {
 }
 
 .hire-me {
-  background-color: #dddbdb;
-  color: black;
+  background: linear-gradient(rgba(24, 21, 21, 0.7), rgba(22, 20, 20, 0.1)),
+    url("https://res.cloudinary.com/samkay-studios/image/upload/q_auto:low/v1603464926/samkaystudios/ll_zeqgtn.jpg")   center !important;
+  background-size: cover !important;
+  color:white;
 }
 
 .hire-me p{
@@ -94,8 +96,8 @@ font-weight:bolder;
 }
 
 .portfolio-img {
-  height: 500px;
-}
+  height: 470px;
+  }
 
 .logo2 {
   position: fixed;

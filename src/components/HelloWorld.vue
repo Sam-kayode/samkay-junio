@@ -4,7 +4,7 @@
       <b-carousel fade :interval="4000" indicators>
         <b-carousel-slide v-for="img in carousel_img" :key="img">
           <template v-slot:img>
-            <img :src="img" class="pic" alt="" />
+            <div class="img-div"><img :src="img" class="pic" alt="" /></div>
           </template>
         </b-carousel-slide>
         <!-- <b-carousel-slide>
@@ -36,29 +36,34 @@ export default {
 </script>
 <style scoped>
 .pic {
-  max-height:85.5vh;
+  max-height: 85.5vh;
   margin-top: 45px;
-  margin:45px auto 0 auto;
+  margin: 45px auto 0 auto;
 }
 
 .backdrop {
   width: 100vw;
   overflow-x: hidden;
-  background: rgba(209, 207, 207, 0.349);
+  background: rgba(185, 181, 181, 0.349);
   text-align: center;
   margin-bottom: 70px;
 }
 
-
-@media(min-height:750px){
-.pic {
-  height: 70vh;
+@media (min-height: 750px) {
+  .pic {
+    height: 70vh;
   }
 }
 
+@media (min-height: 900px) {
+  .pic {
+    max-height: 86vh;
+  }
+}
 
-@media(min-height:900px){
-.pic {
-  max-height: 86vh;}
+@media (max-width: 580px) {
+  .pic {
+    height: 60vh;
+  }
 }
 </style>

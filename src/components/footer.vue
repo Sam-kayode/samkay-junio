@@ -7,9 +7,9 @@
         </b-col>
 
         <b-col class="links py-2">
-          <p class="text-center p-0">Contact Me</p>
+          <p class="text-center p-0 font-weight-bolder">Contact Me</p>
           <ul class="text-center">
-            <li>+234-816-375-2417</li>
+            <li>+234-906-874-0258</li>
             <li>samkaystudios@gmail.com</li>
             <li>Iyana Sele, Akala Way, Ibadan</li>
             <li></li>

@@ -6,11 +6,15 @@
     <h1 class="text-center">Get In Touch</h1>
     
     <div class="text px-2 px-md-5 pt-5">
-      <p class="text-center px-1 px-md-5">
-        Lorem ipsum dolor st amet consectetur adipisicing elit. Perferendis
-        fugiat nihil et neque soluta velit magni nemo, ea consectetur quas
-        placeat illum cum libero eum corrupti voluptatibus quia nostrum quaerat!
-      </p>
+      <div>
+      <b-container>
+        <p>- ALREADY LOVE MY WORKS? SO WHAT ARE YOU WAITING FOR?</p>
+        <h4>Let’s Make Something Great!</h4>
+        <div class="button text-center py-3">
+         
+        </div></b-container
+      >
+    </div>
     </div>
     <b-container class="px-3 px-md-5 py-5">
       <b-form @submit="onSubmit" v-if="show">
